@@ -18,6 +18,62 @@
 
 
 <body>
+  <script>
+
+    window.onload = () => {
+      fetch("https://deezerdevs-deezer.p.rapidapi.com/search?q=opeth", {
+        method: "GET",
+        headers: {
+          "x-rapidapi-key": "4a7bc0b5e2msh5f13530c6ecdfa0p15e797jsn95497b43ebc7",
+          "x-rapidapi-host": "deezerdevs-deezer.p.rapidapi.com"
+        }
+      })
+        .then(response => {
+          console.log(response)
+          return response.json()
+        })
+        .then(jsonRes => {
+          console.log(jsonRes)
+        })
+    }
+
+    window.onload = () => {
+      fetch("https://deezerdevs-deezer.p.rapidapi.com/search?q=midian", {
+        method: "GET",
+        headers: {
+          "x-rapidapi-key": "4a7bc0b5e2msh5f13530c6ecdfa0p15e797jsn95497b43ebc7",
+          "x-rapidapi-host": "deezerdevs-deezer.p.rapidapi.com"
+        }
+      })
+        .then(response => {
+          console.log(response)
+          return response.json()
+        })
+        .then(jsonRes => {
+          console.log(jsonRes)
+        })
+    }
+
+    window.onload = () => {
+      fetch("https://deezerdevs-deezer.p.rapidapi.com/search?q=Cradle%20of%20Filth", {
+        method: "GET",
+        headers: {
+          "x-rapidapi-key": "4a7bc0b5e2msh5f13530c6ecdfa0p15e797jsn95497b43ebc7",
+		      "x-rapidapi-host": "deezerdevs-deezer.p.rapidapi.com"
+        }
+      })
+        .then(response => {
+          console.log(response)
+          return response.json()
+        })
+        .then(jsonRes => {
+          console.log(jsonRes)
+        })
+    }
+
+  </script>
+
+
   <div id="left" class="column">
     <div class="bottom">
       <nav class="root-nav">
@@ -203,7 +259,7 @@
             style="max-width: 540px; background-color: rgba(59, 56, 56, 0.349) !important; margin-right: 1%">
             <div class="row no-gutters">
               <div class="col-md-4">
-                <img src="/covers/demo.jpeg" class="card-img-top" style="padding: 0;" alt="...">
+                <img src="covers/demo.jpeg" class="card-img-top" style="padding: 0;" alt="...">
               </div>
               <div class="col-md-8">
                 <div class="card-body" style="padding: 1rem;">
@@ -217,7 +273,7 @@
             style="max-width: 540px; background-color: rgba(59, 56, 56, 0.349) !important; margin-right: 1%">
             <div class="row no-gutters">
               <div class="col-md-4">
-                <img src="/covers/liked.png" class="card-img-top" style="padding: 0;" alt="...">
+                <img src="covers/liked.png" class="card-img-top" style="padding: 0;" alt="...">
               </div>
               <div class="col-md-8">
                 <div class="card-body" style="padding: 2rem 1rem 1rem 1rem;"">
@@ -231,7 +287,7 @@
             style="max-width: 540px; background-color: rgba(59, 56, 56, 0.349) !important; margin-right: 1%">
             <div class="row no-gutters">
               <div class="col-md-4">
-                <img src="/covers/mb.jpeg" class="card-img-top" style="padding: 0;" alt="...">
+                <img src="covers/mb.jpeg" class="card-img-top" style="padding: 0;" alt="...">
               </div>
               <div class="col-md-8">
                 <div class="card-body" style="padding: 2rem 1rem 1rem 1rem;">
@@ -245,7 +301,7 @@
             style="max-width: 540px; background-color: rgba(59, 56, 56, 0.349) !important; margin-right: 1%">
             <div class="row no-gutters">
               <div class="col-md-4">
-                <img src="/covers/phs.jpeg" class="card-img-top" style="padding: 0;" alt="...">
+                <img src="covers/phs.jpeg" class="card-img-top" style="padding: 0;" alt="...">
               </div>
               <div class="col-md-8">
                 <div class="card-body" style="padding: 1rem;">
@@ -259,7 +315,7 @@
             style="max-width: 540px; background-color: rgba(59, 56, 56, 0.349) !important; margin-right: 1%">
             <div class="row no-gutters">
               <div class="col-md-4">
-                <img src="/covers/joe.jpeg" class="card-img-top" style="padding: 0;" alt="...">
+                <img src="covers/joe.jpeg" class="card-img-top" style="padding: 0;" alt="...">
               </div>
               <div class="col-md-8">
                 <div class="card-body" style="padding: 1rem;">
@@ -275,7 +331,7 @@
             style="max-width: 540px; background-color: rgba(59, 56, 56, 0.349) !important; margin-right: 1%">
             <div class="row no-gutters">
               <div class="col-md-4">
-                <img src="/covers/midian.jpeg" class="card-img-top" style="padding: 0;" alt="...">
+                <img src="covers/midian.jpeg" class="card-img-top" style="padding: 0;" alt="...">
               </div>
               <div class="col-md-8">
                 <div class="card-body" style="padding: 2rem 1rem 1rem 1rem;">
@@ -289,7 +345,7 @@
             style="max-width: 540px; background-color: rgba(59, 56, 56, 0.349) !important; margin-right: 1%">
             <div class="row no-gutters">
               <div class="col-md-4">
-                <img src="/covers/nym.jpeg" class="card-img-top" style="padding: 0;" alt="...">
+                <img src="covers/nym.jpeg" class="card-img-top" style="padding: 0;" alt="...">
               </div>
               <div class="col-md-8">
                 <div class="card-body" style="padding: 2rem 1rem 1rem 1rem;">
@@ -303,7 +359,7 @@
             style="max-width: 540px; background-color: rgba(59, 56, 56, 0.349) !important; margin-right: 1%">
             <div class="row no-gutters">
               <div class="col-md-4">
-                <img src="/covers/amo.jpeg" class="card-img-top" style="padding: 0;" alt="...">
+                <img src="covers/amo.jpeg" class="card-img-top" style="padding: 0;" alt="...">
               </div>
               <div class="col-md-8">
                 <div class="card-body" style="padding: 2rem 1rem 1rem 1rem;">
@@ -317,7 +373,7 @@
             style="max-width: 540px; background-color: rgba(59, 56, 56, 0.349) !important; margin-right: 1%">
             <div class="row no-gutters">
               <div class="col-md-4">
-                <img src="/covers/bask.jpeg" class="card-img-top" style="padding: 0;" alt="...">
+                <img src="covers/bask.jpeg" class="card-img-top" style="padding: 0;" alt="...">
               </div>
               <div class="col-md-8">
                 <div class="card-body" style="padding: 2rem 1rem 1rem 1rem;">
@@ -331,7 +387,7 @@
             style="max-width: 540px; background-color: rgba(59, 56, 56, 0.349) !important; margin-right: 1%">
             <div class="row no-gutters">
               <div class="col-md-4">
-                <img src="/covers/opeth.jpeg" class="card-img-top" style="padding: 0;" alt="...">
+                <img src="covers/opeth.jpeg" class="card-img-top" style="padding: 0;" alt="...">
               </div>
               <div class="col-md-8">
                 <div class="card-body" style="padding: 2rem 1rem 1rem 1rem;">
@@ -353,7 +409,7 @@
 
         <div class="card-deck">
           <div class="card">
-            <img src="/covers/demo.jpeg" class="card-img-top" alt="...">
+            <img src="covers/demo.jpeg" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">Burning Jazz-rock...</h5>
               <p class="card-text">You'll find fiery, <br> modern, groovy, jazz-...</p>
@@ -361,7 +417,7 @@
           </div>
 
           <div class="card">
-            <img src="/covers/mb.jpeg" class="card-img-top" alt="...">
+            <img src="covers/mb.jpeg" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">Metal Ballads</h5>
               <p class="card-text">A collection of the best <br> metal ballads.</p>
@@ -369,7 +425,7 @@
           </div>
 
           <div class="card">
-            <img src="/covers/midian.jpeg" class="card-img-top" alt="...">
+            <img src="covers/midian.jpeg" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">Midian</h5>
               <p class="card-text">Cradle Of Filth</p>
@@ -377,14 +433,14 @@
           </div>
 
           <div class="card">
-            <img src="/covers/liked.png" class="card-img-top" alt="...">
+            <img src="covers/liked.png" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">Liked Songs</h5>
             </div>
           </div>
 
           <div class="card">
-            <img src="/covers/bask.jpeg" class="card-img-top" alt="...">
+            <img src="covers/bask.jpeg" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">LE BASK</h5>
               <p class="card-text">Artist</p>
@@ -392,7 +448,7 @@
           </div>
 
           <div class="card">
-            <img src="/covers/phs.jpeg" class="card-img-top" alt="...">
+            <img src="covers/phs.jpeg" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">POST HUMAN: S...</h5>
               <p class="card-text">Bring Me The Horizon</p>
@@ -400,7 +456,7 @@
           </div>
 
           <div class="card">
-            <img src="/covers/joe.jpeg" class="card-img-top" alt="...">
+            <img src="covers/joe.jpeg" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">This Is Joe Bonam...</h5>
               <p class="card-text">This is Joe Bonamassa.<br>The essential trakcs, ...</p>
@@ -409,7 +465,7 @@
 
 
           <div class="card">
-            <img src="/covers/nym.jpeg" class="card-img-top" alt="...">
+            <img src="covers/nym.jpeg" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">Nymphetamine</h5>
               <p class="card-text">Cradle Of Filth</p>
@@ -552,8 +608,6 @@
     </section>
 
   </div>
-
-
 
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
     integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
