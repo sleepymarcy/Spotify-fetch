@@ -349,6 +349,11 @@ hr {
 	border-radius: 20px;
 }
 
+.scrollbar {
+	overflow-x: auto;
+	overflow-y: auto;
+}
+
 /* Scrollbar*/
 /* width */
 ::-webkit-scrollbar {
